@@ -39,7 +39,8 @@ MLP/
 │   │   └── Machine Learning I - Proyecto Integrador.pdf
 │   │
 │   ├── informes/
-│   │   └── Informe 1 - Comprensión del Artículo y Planteamiento.pdf
+│   │   ├── Informe 1 - Comprensión del Artículo y Planteamiento.pdf
+│   │   └── Informe 2 - Datos, Modelamiento y Validación
 │   │
 │   └── presentaciones/
 │       └── Presentación 1 - Comprensión del Artículo y Planteamiento.pdf
