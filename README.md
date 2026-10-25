@@ -1,4 +1,4 @@
-# IMPUTACIÓN DE SERIES DE TIEMPO CON K-NN FOCALIZADO
+# Focalize K-NN: Implementación y modelamiento en Python
 ### Gabriel Castro Benitez, _____________________
 
 <br>
