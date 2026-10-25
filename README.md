@@ -1,5 +1,7 @@
-# Focalize K-NN: Implementación y modelamiento en Python
-### Gabriel Castro Benitez, _____________________
+
+# IMPUTACIÓN DE SERIES DE TIEMPO CON K-NN FOCALIZADO
+### Gabriel Castro Benitez, Karen Daniela Torres Henao
+>>>>>>> 0bb09fa (Agregar nombre)
 
 <br>
 
