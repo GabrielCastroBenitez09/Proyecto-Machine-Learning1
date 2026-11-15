@@ -1,0 +1,7 @@
+modelo,patron,config_fase2,config_optimizada,R2_fase2,R2_opt,MSE_fase2,MSE_opt
+Regresión lineal,disjoint,LinearRegression,LinearRegression a=1 v=20 it=10,0.0686,0.2759,0.0226,0.0187
+Regresión lineal,overlap,LinearRegression,LinearRegression a=1 v=20 it=10,-0.1619,-0.0528,0.0303,0.028
+KNN,disjoint,KNN k=13,KNN k=41,0.0816,0.1245,0.0225,0.0215
+KNN,overlap,KNN k=13,KNN k=41,-0.1447,-0.121,0.0299,0.0292
+F-KNN,disjoint,F-KNN k=15 tau=0.5 n=3,F-KNN k=25 tau=0.4 n=5 ml=1 lg=2-48-96,0.2336,0.2212,0.0183,0.018
+F-KNN,overlap,F-KNN k=15 tau=0.5 n=3,F-KNN k=25 tau=0.4 n=5 ml=1 lg=2-48-96,-0.0663,-0.0662,0.0276,0.0273

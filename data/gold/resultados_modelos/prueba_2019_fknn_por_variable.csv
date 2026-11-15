@@ -1,0 +1,12 @@
+equipo,variable,R2,n
+anemometro,Gust(km/h),0.2022,392433
+anemometro,Wind Speed(km/h),0.1882,392433
+barometro,Absolute Pressure(hpa),-0.7326,396430
+interior,Indoor Humidity(%),-0.2908,382507
+interior,Indoor Temperature(°C),0.339,382507
+luz,Light(lux),0.2905,364431
+pluviometro,Hour Rainfall(mm),-0.0212,364464
+termohigrometro,DewPoint(°C),-0.9355,591161
+termohigrometro,Outdoor Humidity(%),0.4731,591161
+termohigrometro,Outdoor Temperature(°C),0.5757,591161
+termohigrometro,WindChill(°C),0.5683,591161

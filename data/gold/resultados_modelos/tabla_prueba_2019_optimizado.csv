@@ -1,0 +1,13 @@
+patron,modelo,escenarios,R2_medio,R2_sd,R2_min,MSE_medio
+disjoint,Media,680,-0.3676,0.3408,-3.5409,0.0383
+disjoint,Mediana,680,-0.355,0.2812,-2.831,0.0384
+disjoint,Moda,680,-0.6463,0.3263,-1.9322,0.0524
+disjoint,Regresión lineal,680,0.2759,0.3915,-5.2111,0.0187
+disjoint,KNN,680,0.1245,0.2396,-1.5687,0.0215
+disjoint,F-KNN,680,0.2212,0.3921,-6.0074,0.018
+overlap,Media,490,-0.3801,0.3987,-3.8669,0.0373
+overlap,Mediana,490,-0.3589,0.3028,-3.0188,0.0373
+overlap,Moda,490,-0.6166,0.243,-2.0835,0.0499
+overlap,Regresión lineal,490,-0.0528,0.3894,-2.2102,0.028
+overlap,KNN,490,-0.121,0.3308,-2.2102,0.0292
+overlap,F-KNN,490,-0.0662,0.3887,-2.2102,0.0273

@@ -1,0 +1,11 @@
+patron,duracion,escenarios,R2_medio,MSE_medio
+disjoint,1h,140,0.5251,0.0113
+disjoint,6h,160,0.1896,0.0184
+disjoint,1d,160,0.1269,0.0205
+disjoint,3d,120,0.1358,0.0201
+disjoint,7d,100,0.0999,0.0199
+overlap,1h,110,0.0798,0.0259
+overlap,6h,120,-0.0688,0.0289
+overlap,1d,120,-0.1422,0.0296
+overlap,3d,80,-0.0505,0.0258
+overlap,7d,60,-0.1975,0.024

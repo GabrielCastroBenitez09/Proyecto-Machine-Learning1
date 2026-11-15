@@ -1,0 +1,84 @@
+{
+  "modelo_final": "F-KNN k=25 tau=0.4 n=5 ml=1 lg=2-48-96",
+  "configuraciones": {
+    "Regresión lineal": "LinearRegression a=1 v=20 it=10",
+    "KNN": "KNN k=41",
+    "F-KNN": "F-KNN k=25 tau=0.4 n=5 ml=1 lg=2-48-96"
+  },
+  "variables": [
+    "Indoor Temperature(°C)",
+    "Indoor Humidity(%)",
+    "Outdoor Temperature(°C)",
+    "Outdoor Humidity(%)",
+    "Absolute Pressure(hpa)",
+    "Wind Speed(km/h)",
+    "Gust(km/h)",
+    "DewPoint(°C)",
+    "WindChill(°C)",
+    "Hour Rainfall(mm)",
+    "Light(lux)"
+  ],
+  "minimo_2018": [
+    18.8,
+    45.0,
+    13.8,
+    37.0,
+    822.6,
+    0.0,
+    0.0,
+    10.9,
+    13.8,
+    0.0,
+    0.0
+  ],
+  "maximo_2018": [
+    27.9,
+    77.0,
+    28.6,
+    99.0,
+    828.6,
+    19.4,
+    22.0,
+    18.9,
+    28.6,
+    6.3,
+    98355.3
+  ],
+  "grupos_sensores": {
+    "interior": [
+      "Indoor Temperature(°C)",
+      "Indoor Humidity(%)"
+    ],
+    "termohigrometro": [
+      "Outdoor Temperature(°C)",
+      "Outdoor Humidity(%)",
+      "DewPoint(°C)",
+      "WindChill(°C)"
+    ],
+    "barometro": [
+      "Relative Pressure(hpa)",
+      "Absolute Pressure(hpa)"
+    ],
+    "anemometro": [
+      "Wind Speed(km/h)",
+      "Gust(km/h)"
+    ],
+    "pluviometro": [
+      "Hour Rainfall(mm)"
+    ],
+    "luz": [
+      "Light(lux)"
+    ]
+  },
+  "semilla_busqueda": 2026,
+  "metricas_prueba_2019": {
+    "disjoint": {
+      "R2_medio": 0.22122739678783912,
+      "MSE_medio": 0.017951583359286486
+    },
+    "overlap": {
+      "R2_medio": -0.06617659706692863,
+      "MSE_medio": 0.02728429682348357
+    }
+  }
+}
