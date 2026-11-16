@@ -27,7 +27,7 @@ Ejecuta los notebooks en orden desde `notebooks/`:
 
 1. `01_eda.ipynb`: explora y limpia los datos; genera los archivos procesados y los tramos temporales.
 2. `02_generador_faltantes_ajuste_validacion_prueba (1).ipynb`: crea escenarios reproducibles de faltantes y sus índices.
-3. `03_flujo_modelamiento_ajuste_validacion_prueba_corregido.ipynb`: entrena y compara los métodos, y guarda los resultados de CV y validación.
+3. `03_flujo_modelamiento_FINAL.ipynb`: entrena y compara los métodos (F-KNN, K-NN, Regresión Lineal, Baselines), guarda los resultados de CV y validación, y contiene la evaluación final sobre el tramo de prueba 2019 con la comparativa global del modelo ganador.
 
 Las rutas relativas de los notebooks están planteadas para ejecutarlos desde esa carpeta. Para reproducir el flujo completo, ejecuta sus celdas en orden. El notebook de modelamiento no ejecuta automáticamente las celdas posteriores cuando se vuelve a correr una celda anterior.
 
@@ -81,7 +81,20 @@ MLP/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_generador_faltantes_ajuste_validacion_prueba (1).ipynb
-│   └── 03_flujo_modelamiento_ajuste_validacion_prueba_corregido.ipynb
+│   └── 03_flujo_modelamiento_FINAL.ipynb
+│
+├── figs/
+│   └── fig_fknn_comparativa_tramos.png   ← Comparativa global F-KNN: ajuste / validación / prueba
+│
+├── despliegue/
+│   ├── app.py                            ← Aplicación web interactiva (Streamlit + Plotly)
+│   ├── export_model.py                   ← Script para reentrenar y exportar el pipeline
+│   ├── requirements.txt                  ← Dependencias del módulo de despliegue
+│   ├── src/                              ← Módulos Python (FocalizedKNNImputer, preprocessing)
+│   ├── models/                           ← Pipeline .joblib y metadatos entrenados con 2018
+│   ├── data/                             ← Datos de ejemplo para la interfaz
+│   ├── assets/                           ← Logos institucionales
+│   └── README.md                         ← Guía de uso del módulo de despliegue
 │
 ├── requirements.txt
 │

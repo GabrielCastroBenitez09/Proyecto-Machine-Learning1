@@ -1,0 +1,75 @@
+{
+  "modelo": "Focalized K-Nearest Neighbors (F-KNN)",
+  "configuracion": "k=25, tau=0.4, n=5, max_lags=1, lags=[2, 48, 96]",
+  "variables": [
+    "Indoor Temperature(°C)",
+    "Indoor Humidity(%)",
+    "Outdoor Temperature(°C)",
+    "Outdoor Humidity(%)",
+    "Absolute Pressure(hpa)",
+    "Wind Speed(km/h)",
+    "Gust(km/h)",
+    "DewPoint(°C)",
+    "WindChill(°C)",
+    "Hour Rainfall(mm)",
+    "Light(lux)"
+  ],
+  "n_variables": 11,
+  "frecuencia": "30min",
+  "rangos_historicos_2018": {
+    "Indoor Temperature(°C)": {
+      "min": 18.8,
+      "max": 27.9
+    },
+    "Indoor Humidity(%)": {
+      "min": 45.0,
+      "max": 77.0
+    },
+    "Outdoor Temperature(°C)": {
+      "min": 13.8,
+      "max": 28.6
+    },
+    "Outdoor Humidity(%)": {
+      "min": 37.0,
+      "max": 99.0
+    },
+    "Absolute Pressure(hpa)": {
+      "min": 822.6,
+      "max": 828.6
+    },
+    "Wind Speed(km/h)": {
+      "min": 0.0,
+      "max": 19.4
+    },
+    "Gust(km/h)": {
+      "min": 0.0,
+      "max": 22.0
+    },
+    "DewPoint(°C)": {
+      "min": 10.9,
+      "max": 18.9
+    },
+    "WindChill(°C)": {
+      "min": 13.8,
+      "max": 28.6
+    },
+    "Hour Rainfall(mm)": {
+      "min": 0.0,
+      "max": 6.3
+    },
+    "Light(lux)": {
+      "min": 0.0,
+      "max": 98355.3
+    }
+  },
+  "metricas_prueba_2019": {
+    "disjoint": {
+      "R2_medio": 0.2212,
+      "MSE_medio": 0.018
+    },
+    "overlap": {
+      "R2_medio": -0.0662,
+      "MSE_medio": 0.0273
+    }
+  }
+}
